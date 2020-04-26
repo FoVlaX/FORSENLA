@@ -1,6 +1,5 @@
 # FORSENLA
-for Senla
-пакет promblem1 - решение 1 задания
+пакет promblem1 - решение 1 задания\n
 пакет promblem2 - решение 2 задания
 пакет promblem3 - решение 3 задания
 пакет promblem4 - решение 4 задания
