@@ -15,7 +15,7 @@ public class words {
                 Scanner in = new Scanner(System.in);
                 System.out.print("Введите предложение: ");
                 String str = in.nextLine(); //вводим предложение
-                String[] swords = str.trim().split(" "); //получаем слова из предложения
+                String[] swords = str.trim().split(" ");  //получаем слова из предложения
                 for(int i=0;i<swords.length;i++){
                     if (swords[i].compareTo("")!=0) {
                         dict.add(swords[i]); //помещаем слова в словарь
