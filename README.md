@@ -5,5 +5,5 @@
 пакет promblem4 - решение 4 задания \
 пакет promblem5 - решение 5 задания \
 пакет promblem6 - решение 6 задания \
-com.fovlax - запуск решений (class problem, function run) \
+com.fovlax - запуск решений (class problem, function run, создается и запускается в Main) \
 пакет Dictionary - класс dictionary - двоичное дерево поиска для 3 и 4 заданий. 
