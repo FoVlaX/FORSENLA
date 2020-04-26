@@ -28,7 +28,7 @@ public class CheckNumber {
                     del++;
                 }
 
-                if (count != 1){//проверка на простое
+                if (count != 1 || num==1){//проверка на простое
                     prime = false;
                 }
 
