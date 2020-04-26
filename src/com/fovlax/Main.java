@@ -10,9 +10,6 @@ import problem6.Backpack;
 public class Main {
 
     static class problem{
-        public problem(){
-
-        }
         public void run(int i){ //запустить Задачу №i
             switch (i){
                 case 1:     CheckNumber.run(); break; //первая задача определить четное, нечетное, простое или составное число
