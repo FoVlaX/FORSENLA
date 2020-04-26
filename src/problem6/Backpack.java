@@ -6,7 +6,7 @@ import java.util.Collections;
 import  java.lang.Math;
 public class Backpack {
 
-    class Item implements Comparable<Item>{
+    static class Item implements Comparable<Item>{
         int weight;
         int cost;
         Item(int w, int c){
@@ -23,7 +23,7 @@ public class Backpack {
         }
     }
 
-    public Backpack(){
+    public static void run(){
         boolean error = false;
         do {
             error = false;

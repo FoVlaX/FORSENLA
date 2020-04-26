@@ -2,9 +2,9 @@ package problem2;
 
 import java.util.Scanner;
 
-public class NOKandNOD {
+public class NOKandNOD{
 
-    private int NOD(int A, int B){ //найдем наибольший общий делитель
+    private static int NOD(int A, int B){ //найдем наибольший общий делитель
         while (A != B){
             if (A > B){
                 A -= B;
@@ -15,11 +15,11 @@ public class NOKandNOD {
         return A;
     }
 
-    private int NOK(int A, int B){ // найдем наименьшее общее кратное
+    private static int NOK(int A, int B){ // найдем наименьшее общее кратное
         return B*A/NOD(A,B);
     }
 
-    public NOKandNOD() { //основная функция задачи
+    public static void run() { //основная функция задачи
         boolean error = false;
         do {
             error = false;

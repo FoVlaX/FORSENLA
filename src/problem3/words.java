@@ -5,7 +5,7 @@ import java.lang.String;
 public class words {
 
 
-    public words(){
+    public static void  run(){
 
         boolean error = false;
         do {

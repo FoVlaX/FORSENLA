@@ -2,7 +2,7 @@ package problem1;
 import java.util.Scanner;
 
 public class CheckNumber {
-    public CheckNumber() {
+    public static void run() {
         boolean error = false;
         do {
             error = false;
@@ -28,7 +28,7 @@ public class CheckNumber {
                     del++;
                 }
 
-                if (count != 1){//проверка на простое
+                if (count != 1 || num==1){//проверка на простое
                     prime = false;
                 }
 

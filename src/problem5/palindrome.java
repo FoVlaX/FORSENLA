@@ -3,7 +3,7 @@ package problem5;
 import java.util.Scanner;
 
 public class palindrome {
-    public palindrome(){
+    public static void run(){
         boolean error = false;
         do {
             error = false;

@@ -3,7 +3,7 @@ package problem4;
 import java.util.Scanner;
 
 public class text {
-    public text(){
+    public static void run(){
         boolean error = false;
         do {
             error = false;

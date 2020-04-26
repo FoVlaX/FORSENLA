@@ -1,4 +1,11 @@
 package com.fovlax;
+import problem1.CheckNumber;
+import problem2.NOKandNOD;
+import problem3.words;
+import problem4.text;
+import problem5.palindrome;
+import problem6.Backpack;
+
 
 public class Main {
 
@@ -8,16 +15,18 @@ public class Main {
         }
         public void run(int i){ //запустить Задачу №i
             switch (i){
-                case 1:     problem1.CheckNumber checkNumber = new  problem1.CheckNumber(); break; //первая задача определить четное, нечетное, простое или составное число
-                case 2:     problem2.NOKandNOD twoNumbers = new  problem2.NOKandNOD();      break; //вторая задача найти НОД и НОК двух чисел
-                case 3:     problem3.words words = new problem3.words();                    break; //задание 3 вывести слова в отсортированном виде каждое слово с заглавной буквы
-                case 4:     problem4.text text = new problem4.text();                       break; //задание 4 вывести сколько раз слово встречается в тексе
-                case 5:     problem5.palindrome palindrome = new problem5.palindrome();     break; //задание 5 найти все полиндромы от 0 до N (N<=100)
-                case 6:     problem6.Backpack backpack = new problem6.Backpack();           break;//задание 6 - заполнить рюкзак оптимально
-                default:    System.out.println("Нет такой задачи!");                        break;
+                case 1:     CheckNumber.run(); break; //первая задача определить четное, нечетное, простое или составное число
+                case 2:     NOKandNOD.run();   break; //вторая задача найти НОД и НОК двух чисел
+                case 3:     words.run();       break; //задание 3 вывести слова в отсортированном виде каждое слово с заглавной буквы
+                case 4:     text.run();        break; //задание 4 вывести сколько раз слово встречается в тексе
+                case 5:     palindrome.run();  break; //задание 5 найти все полиндромы от 0 до N (N<=100)
+                case 6:     Backpack.run();    break;//задание 6 - заполнить рюкзак оптимально
+                default:    System.out.println("Нет такой задачи!");  break;
             }
         }
     }
+
+
     public static void main(String[] args) {
         problem problems = new problem();
         problems.run(1); //Задание 1
